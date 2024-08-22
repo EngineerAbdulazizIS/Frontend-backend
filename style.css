@@ -1,0 +1,111 @@
+
+/* Engineer.Abdulaziz.is@gmail.com */
+body{
+  background:#d5dadd;
+  color:#66757f;
+}
+* {
+  box-sizing: border-box;
+}
+.column1 {
+  float: left;
+  width: 25%;
+}
+.column {
+  padding: 40px 20px;
+  align-items: left;
+  justify-content: left;
+  float: left;
+  text-align: left;
+  width: 50%;
+  box-shadow: 7px 7px 10px #66757f,
+  -7px -7px 10px #66757f;
+  border-radius: 20px;
+  background: #aab4bb;
+}
+
+.EngineerAbdulazizis{
+  padding: 90px 20px;
+}
+/* Engineer.Abdulaziz.is@gmail.com */
+.EngineerAbdulazizis:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+form{
+	padding: 40px 40px;
+}
+label{
+	float: left;
+	color:#66757f;
+}
+/* Engineer.Abdulaziz.is@gmail.com */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 30px;
+  background: #d5dadd;
+  border-radius: 20px;
+}
+input:hover {
+    box-shadow: 3px 3px 5px #66757f,
+  -3px -3px 5px #66757f;
+}
+/* Engineer.Abdulaziz.is@gmail.com */
+select{
+  float: left;
+  color:#66757f;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 30px;
+  background: #d5dadd;
+  border-radius: 20px;
+}
+select:hover {
+    box-shadow: 3px 3px 5px #66757f,
+  -3px -3px 5px #66757f;
+}
+
+textarea{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 30px;
+  background: #d5dadd;
+  border-radius: 20px;
+}
+textarea:hover {
+    box-shadow: 3px 3px 5px #66757f,
+  -3px -3px 5px #66757f;
+}
+/* Engineer.Abdulaziz.is@gmail.com */
+.registerbtn {
+  text-align: center;
+  background-color: #66757f;
+  color: #d5dadd;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px #71828e,
+  -1px -1px 3px #71828e;
+}
+.registerbtn:hover {
+   background-color: #71828e;
+   box-shadow: 3px 3px 5px #d5dadd,
+  -3px -3px 5px #d5dadd;
+}
